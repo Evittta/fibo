@@ -31,7 +31,8 @@ const resArr = fibArr(number);
 const resVariable = fibVariable(number);
 const resRecurs = fibRecurs(number);
 const resBine = fibBine(number);
-document.write('Fibonacci(array) : ' + resArr + 
+document.write(number + ' number of Fibonacci in different ways : ')
+document.write('<br>Fibonacci(array) : ' + resArr + 
                '<br>Fibonacci(variable) : ' + resVariable + 
                '<br>Fibonacci(Recursion) : ' + resRecurs + 
                '<br>Fibonacci(Bine) : ' + resBine);
